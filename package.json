@@ -2,7 +2,7 @@
   "name": "cnn-standup",
   "private": true,
   "version": "1.0.0",
-  "homepage": "https://johnmberger.github.io/cnn-standup",
+  "homepage": "https://johnmberger.com/cnn-standup",
   "type": "module",
   "scripts": {
     "dev": "vite",
