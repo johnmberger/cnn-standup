@@ -12,9 +12,9 @@ export function getCurrentWeekNumber() {
   return getWeekNumber(new Date());
 }
 
-export function getStandupLeaderThisWeek(team) {
+export function getStandupLeaderThisWeek(team, offset = 0) {
   const weekNumber = getCurrentWeekNumber();
-  return team[weekNumber % team.length];
+  return team[(weekNumber + offset) % team.length];
 }
 
 export function getCurrentWeekDates() {

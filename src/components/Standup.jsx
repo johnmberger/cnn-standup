@@ -4,15 +4,15 @@ const teamMembers = [
   "Allen",
   "Brad",
   "Cristian",
-  "David",
+  "Rich",
   "Elise",
   "Heddy",
   "John",
   "Graham",
-  "Alyssa",
-  "Marc",
   "Michael",
-  "Rich",
+  "David",
+  "Marc",
+  "Alyssa",
 ];
 
 export default function Standup() {
@@ -30,6 +30,10 @@ export default function Standup() {
         </p>
         <p className="font-bold sm:text-9xl text-7xl text-red-600">
           {standupLeader}
+        </p>
+
+        <p class="mt-12 italic text-gray-500">
+          Next week: {getStandupLeaderThisWeek(teamMembers, 1)}
         </p>
       </div>
     </div>
