@@ -11,8 +11,8 @@ const teamMembers = [
   "Graham",
   "Michael",
   "David",
-  "Marc",
   "Alyssa",
+  "Marc",
 ];
 
 export default function Standup() {
