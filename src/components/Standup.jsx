@@ -11,7 +11,7 @@ const teamMembers = [
   "Graham",
   "Michael",
   "David",
-  "Alyssa",
+  "Liz",
   "Marc",
 ];
 
